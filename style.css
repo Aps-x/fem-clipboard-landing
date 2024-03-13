@@ -13,8 +13,8 @@ Root
 
     --fs_regular:     1.125rem;
     --fs_medium:      1.5rem;
-    --fs_semilarge:   clamp(1.75rem, 12vw + 1rem, 3rem);
-    --fs_large:       clamp(2.1rem, 12vw + 1rem, 3.75rem);
+    --fs_semilarge:   clamp(1.75rem, 3vw + 1rem, 3rem);
+    --fs_large:       clamp(2.1rem, 5vw + 1rem, 3.75rem);
 
     --fw_regular:  400;
     --fw_semibold: 600;
