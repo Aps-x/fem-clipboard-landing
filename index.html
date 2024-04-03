@@ -8,16 +8,18 @@
     
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/png" href="images/favicon.png">
+
     <script src="animate_on_scroll.js" defer></script>
     <script src="horizontal_logo_scroll.js" defer></script>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="hero_section | content_column set_to_animate">
-        <img class="hero_logo" src="images/logo.svg" alt="Clipboard logo featuring the letter C wrapped in a circle">
-        <h1 class="hero_title">A history of everything you copy</h1>
+        <img class="hero_section__logo" src="images/logo.svg" alt="Clipboard logo featuring the letter C wrapped in a circle">
+        <h1 class="hero_section__title">A history of everything you copy</h1>
         <p class="section_subtitle">
             Clipboard allows you to track and organize everything you 
             copy. Instantly access your clipboard on all your devices.
@@ -37,7 +39,7 @@
                     devices. Our Mac and iOS apps will help you organize everything.
                 </p>
             </div>
-            <div class="snippets_columns">
+            <div class="snippets_section__columns | set_to_animate">
                 <img class="img_computer" src="images/image-computer.png" alt="Image of a computer monitor" loading="lazy">
                 <div class="highlights_container">
                     <article class="highlight">
@@ -70,21 +72,21 @@
         <section class="supercharge_section | set_to_animate">
             <h2 class="section_title">Supercharge your workflow</h2>
             <p class="section_subtitle">We’ve got the tools to boost your productivity.</p>
-            <div class="even_columns">
+            <div class="supercharge_section__columns">
     
-                <article class="even_columns__card">
+                <article class="card">
                     <img class="img_icon" src="images/icon-blacklist.svg" alt="" loading="lazy">
                     <h3 class="card__title">Create Blacklists</h3>
                     <p class="card__subtitle">Ensure sensitive information never makes its way to your clipboard by excluding certain sources.</p>        
                 </article>
     
-                <article class="even_columns__card">
+                <article class="card">
                     <img class="img_icon" src="images/icon-text.svg" alt="" loading="lazy">
                     <h3 class="card__title">Plain Text Snippets</h3>
                     <p class="card__subtitle">Remove unwanted formatting from copied text for a consistent look.</p>        
                 </article>
     
-                <article class="even_columns__card">
+                <article class="card">
                     <img class="img_icon" src="images/icon-preview.svg" alt="" loading="lazy">
                     <h3 class="card__title">Sneak Preview</h3>
                     <p class="card__subtitle">Retrieve any snippets from the first moment you started using the app.</p>        
@@ -95,11 +97,11 @@
     
         <section class="scroller">
             <div class="scroller__inner">
-                <img src="images/logo-google.png" alt="Google" loading="lazy">
-                <img src="images/logo-ibm.png" alt="IBM" loading="lazy">
-                <img src="images/logo-microsoft.png" alt="Microsoft" loading="lazy">
-                <img src="images/logo-hp.png" alt="Hewlett Packard" loading="lazy">
-                <img src="images/logo-vector-graphics.png" alt="Vector" loading="lazy">
+                <img src="images/logo-google.png" alt="Google">
+                <img src="images/logo-ibm.png" alt="IBM">
+                <img src="images/logo-microsoft.png" alt="Microsoft">
+                <img src="images/logo-hp.png" alt="Hewlett Packard">
+                <img src="images/logo-vector-graphics.png" alt="Vector">
             </div>
         </section>
     
@@ -119,12 +121,12 @@
         <div class="footer_container">
             <img class="footer_logo" src="images/logo.svg" alt="Clipboard logo featuring the letter C wrapped in a circle" loading="lazy">
             <nav class="footer_nav">
-                <ul class="footer_nav__links">
-                    <li><a href="">FAQs</a></li>
-                    <li><a href="">Privacy Policy</a></li>
-                    <li><a href="">Install Guide</a></li>
-                    <li><a href="">Contact Us</a></li>
-                    <li><a href="">Press Kit</a></li>
+                <ul class="footer_nav__list">
+                    <li class="footer_nav__item"><a class="footer_nav__link" href="">FAQs</a></li>
+                    <li class="footer_nav__item"><a class="footer_nav__link" href="">Privacy Policy</a></li>
+                    <li class="footer_nav__item"><a class="footer_nav__link" href="">Install Guide</a></li>
+                    <li class="footer_nav__item"><a class="footer_nav__link" href="">Contact Us</a></li>
+                    <li class="footer_nav__item"><a class="footer_nav__link" href="">Press Kit</a></li>
                 </ul>
             </nav>
             <ul class="socials">
